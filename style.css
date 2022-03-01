@@ -1,7 +1,4 @@
-.card{
-    border:0;
-    /* color:#f1f1f7; */
-  }
+
    body{
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
   }
@@ -18,7 +15,12 @@
             1px 1px 0 #fff;
         text-align: center;
     }
-
+    /* card */
+    .card{
+      border:0;
+      /* color:#f1f1f7; */
+    }
+    /* search-btn */
     .search-btn {
         padding: 1rem 3rem;
         outline: none;
@@ -37,4 +39,8 @@
         background-color: #fff;
         color: #000;
         border: 1px solid #000;
+    }
+    /* notfound */
+    #notfound{
+      display: none;
     }
